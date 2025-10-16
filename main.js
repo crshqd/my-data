@@ -35,13 +35,6 @@ function romanize(num){
     return Array(+digits.join("") + 1).join("M") + roman;
 }
 
-//disable sounds coming from soundjay.com (sorry)
-var realAudio=typeof Audio!=='undefined'?Audio:function(){return {}};//backup real audio
-Audio=function(src){
-	if (src && src.indexOf('soundjay')>-1) {Game.Popup('Sorry, no sounds hotlinked from soundjay.com.');this.play=function(){};}
-	else return new realAudio(src);
-};
-
 if(!Array.prototype.indexOf) {
     Array.prototype.indexOf = function(needle) {
         for(var i = 0; i < this.length; i++) {
