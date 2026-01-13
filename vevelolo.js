@@ -1,2 +1,1 @@
-let vevelolo = "http://aetrymarkabiscudrijeauh.mywebcommunity.org/RespectKennethFromArt.php";
-alert("PSA my servers imploded because yall played too much\nNot your fault btw, trust me will be fixed")
+let vevelolo = "https://lel945945.an-email-from-mars-1.workers.dev/EavesdropIniativeDriver.mp4";
